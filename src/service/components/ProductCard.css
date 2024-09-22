@@ -1,0 +1,19 @@
+.products-container {
+  padding: 10px;
+}
+
+.product-card {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 20px;
+}
+
+.product-image {
+  width: 25%;
+  height: 300px;
+}
+
+.product-details {
+  padding: 20px;
+}
