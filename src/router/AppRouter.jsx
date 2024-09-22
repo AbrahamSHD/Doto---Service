@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router"
-import { MeliPage } from "../service"
+import { SearchPage } from "../service/pages/SearchPage"
 
 
 export const AppRouter = () => {
@@ -10,7 +10,7 @@ export const AppRouter = () => {
         <Route
           path="/*" 
           element={
-            <MeliPage />
+            <SearchPage />
           }
         />
         
