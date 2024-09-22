@@ -57,7 +57,7 @@ export const useFetch = ( url ) => {
         data: state.data,
         isLoading: state.isLoading,
         hasError: state.hasError,
-        // error: state.error,
+        error: state.error,
     }
 }
 
